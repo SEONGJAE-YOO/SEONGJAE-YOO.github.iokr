@@ -2,7 +2,7 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               유성재 블로그
+title:               SeongJae Yu 블로그
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
@@ -10,22 +10,19 @@ url:
 
 # Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
-baseurl:
-
-#11.12
-source_url: https://github.com/SEONGJAE-YOO/SEONGJAE-YOO2.github.io.git
+baseurl:             ""
 
 # A very short description of your page
-tagline:
+tagline:             "All roads lead to data."
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
-description:
-
+description:         >
+  Data science enthusiast and addict :)
 # This should be the same author as first entry in `_data/authors.yml`
 author:
-  name:              SeongJae Yu
-  email:             yousong4243@naver.com
+  name:              min
+  email:             theorydb@gmail.com
 
 # Fallback image and color
 image:               /assets/img/main_left.jpg
@@ -46,14 +43,14 @@ google_fonts:        Lato
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-google_analytics:
+google_analytics:    UA-137374202-1
 
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
 disqus: True
-disqus_shortname:    유성재블로그
+disqus_shortname:    SeongJae Yu
 
 # This text will appear in the footer of every page. Markdown enabled.
-copyright:           '&copy; 2021.11. by SeongJae Yu 블로그'
+copyright:           '&copy; 2019.04. by theorydb'
 
 # Format of the permalinks
 permalink:           pretty
@@ -141,4 +138,3 @@ tipue_search:
     files: [search.html, index.html, tags.html]
     categories: []
     tags: []
-    
